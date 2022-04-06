@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/example_of_sharedpreferences"
+        android:textColor="#DD2C00"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/edt_userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_user_name"
+        android:textColor="#FF6D00"
+       android:layout_marginTop="250dp"
+        />
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+    android:textColor="#FF6D00"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:text="@string/login"
+        />
+
+    <TextView
+        android:id="@+id/txtView_userId"
+        android:layout_width="154dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:textColor="#FF6D00"
+
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtView_userpass"
+        android:layout_width="154dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#FF6D00"/>
+
+
+
+
+
+
+</LinearLayout>
